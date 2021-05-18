@@ -1,0 +1,161 @@
+*{
+    margin: 0px;/*ningun tipo de margen*/
+    padding:0px;/*para quitar el margen interior de las cajas*/
+}
+
+#bigbox{       
+    font: montserrat, roboto, oswald, nunito;    
+    width: 90%;
+    height: 900px;
+    margin: 0px auto; /*para centrar todo el texto*/
+    /*border: 2px solid green;*/
+}
+
+header{
+    color: #EDDCA6;
+    width:  100%;
+    height: 100px;/*definde la Altura de la caja*/
+    text-align:center;/*para centrar el texo*/
+    padding-top:50px;
+    padding-button:50px;   
+}
+
+aside{
+    border-left: 3px dashed darksalmon;
+    float: left;/*agrupar el texto a la derecha*/       
+    width: calc(40% - 46px);/*define el porcentaje que va a ocupar el bloque*/
+    height: 400px;
+}
+#aboutme{
+    font-size: 25px;
+    color: blueviolet;
+    border-left: 3px dashed darksalmon;  
+    border-right: 3px dashed darksalmon;
+    float: left;/*agrupar el texto a la derecha*/
+    width: calc(60% - 1px);/*define el Ancho de la caja*/        
+    height: 362px;/*Altura*/   
+    padding: 19px;    
+    text-align: center;/*para centrar el texto*/    
+}
+p{
+    padding-top: 110px;    
+}
+body {        
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    height: 100%;
+    background: url(background_page.jpeg);    
+}
+
+img {
+    width: 100%; 
+}
+ul, li, a{ 
+    list-style: none;/*quita cualquier estilo*/
+    float:left;
+    width:100%;
+}
+li{            
+    padding: 20px;
+    color: #510c59;    
+}
+strong{
+    text-align:center;
+    color: brown;
+    font-size: 20px;
+    border-left: 3px dashed darksalmon;
+    border-right: 3px dashed darksalmon;
+    padding-left: 496px;
+    padding-right: 496px;
+}
+.image, .image2, .image3, .image4, .image5, .image6, .GIF, .survey, .HW9, .HW10, .story {
+    margin-top: 12px;
+    border:2px solid black;
+    margin-left:2px;
+}
+.image{       
+    background: #D6CABD;
+    height:36px;
+    line-height: 33px;
+    width: 66px;
+    text-align: center;
+}
+.image2{    
+    background: #C1B3C6;
+    width: 58px;
+    text-align: center;
+}
+.image3{
+    background: #B1ADB2;
+    height:36px;
+    line-height: 33px;
+    width: 35px;
+    text-align: center;
+}
+.image4{
+    background: #D6CABD;
+    width: 35px;
+    text-align: center;
+}
+.image5{
+    background: #A8C6B2;
+    height:36px;
+    line-height: 33px;
+    width: 61px;
+    text-align: center;
+}
+.image6{        
+    background: #C1A3A7;
+    height:36px;
+    line-height: 33px;
+    width: 38px;
+    text-align: center;
+}
+.GIF{    
+    background: #C1B3C6;
+    height:36px;
+    line-height: 33px;
+    width: 23px;
+    text-align: center;    
+}
+.survey{        
+    background: #B1ADB2;
+    height:36px;
+    line-height: 33px;
+    width: 88px;
+    text-align: center;
+}
+.HW9{    
+    background: #AFBADB;
+    height:36px;
+    line-height: 33px;
+    width: 99px;
+    text-align: center;
+}
+.HW10{    
+    background: #A8C6B2;
+    height:36px;
+    line-height: 33px;
+    width: 35px;
+    text-align: center;
+}
+.story{    
+    background: #D6CABD;    
+    width: 97px;
+    text-align: center;
+}
+
+footer{
+    color: #EDDCA6;
+    height: 60px;
+    padding-top: 20px; 
+    text-align: center;
+    
+}
+
+.clearfix{
+    clear: both;   
+    border-bottom: 3px dashed darksalmon;/*dashed=para un borde entre cortado*/
+}
