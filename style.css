@@ -153,5 +153,5 @@ footer{
 
 .clearfix{
     clear: both;   
-    border-bottom: 3px solid darksalmon;/*dashed=para un borde entre cortado*/
+    border-bottom: 3px dashed darksalmon;/*dashed=para un borde entre cortado*/
 }
